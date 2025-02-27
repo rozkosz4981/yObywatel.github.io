@@ -13,6 +13,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 70px;
+    font-size: 13px;
 }
 
 .discord{
@@ -23,9 +24,10 @@
     margin-left: auto;
     margin-right: auto;
     height: 50px;
-    background-color: #6064f4;
+    background-color: #2cabf5;
     border-radius: 10px;
     transition: 200ms;
+    margin-top: -5px;
     box-shadow: 0px 0px 20px rgb(153, 153, 153);
 }
 
@@ -56,10 +58,12 @@
     height: max-content;
     font-size: 20px;
     font-weight: 600;
+    text-align: center;
+    line-height: 50px;
 }
 
 .discord_image{
-    width: 40px;
+    width: 30px;
     margin-top: auto;
     margin-bottom: auto;
     margin-right: 10px;
