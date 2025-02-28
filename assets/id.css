@@ -9,7 +9,7 @@
 .password_box{
     width: 97%;
     margin-top: 20px;
-    height: 155px;
+    height: 165px;
     background-color: white;
     margin-left: auto;
     margin-right: auto;
@@ -34,7 +34,7 @@
 .password_text{
     width: 100%;
     text-align: left;
-    font-size: 80%;
+    font-size: 15px;
     opacity: 0.7;
     margin-top: 20px;
     margin-bottom: 2px;
@@ -52,8 +52,8 @@
     margin-top: auto;
     margin-bottom: auto;
     right: 20px;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -81,7 +81,7 @@
 
 .forgot_password{
     color: var(--text);
-    font-size: 80%;
+    font-size: 15px;
     margin-top: 17px;
     margin-right: auto;
     margin-left: 2px;
@@ -105,13 +105,13 @@
 
 .login{
     color: white;
-    line-height: 50px;
+    line-height: 60px;
     text-align: center;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 22px;
     width: 100%;
     background-color: rgb(2, 74, 148);
-    height: 50px;
+    height: 60px;
     border-radius: 40px;
     margin-bottom: 25px;
 }
@@ -132,12 +132,12 @@
     height: max-content;
     margin-left: 10px;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .welcome{
     font-weight: 700;
-    font-size: 35px;
+    font-size: 38px;
     margin-top: auto;
     margin-bottom: auto;
     height: max-content;
@@ -161,7 +161,7 @@
     margin-bottom: auto;
     height: max-content;
     opacity: 0.8;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .top_grid{
@@ -187,7 +187,7 @@
 }
 
 .logo{
-    width: 50px;
+    width: 55px;
 }
 
 .logo_other{
