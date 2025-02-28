@@ -1,15 +1,8 @@
 
-.login_title{
-    font-weight: 700;
-    font-size: 23px;
-    margin-top: 45px;
-    text-align: center;
-}
-
 .password_box{
     width: 97%;
-    margin-top: 20px;
-    height: 155px;
+    margin-top: 4%;
+    height: 17%;
     background-color: white;
     margin-left: auto;
     margin-right: auto;
@@ -36,12 +29,13 @@
     text-align: left;
     font-size: 80%;
     opacity: 0.7;
-    margin-top: 20px;
-    margin-bottom: 2px;
+    margin-top: 4%;
+    margin-bottom: 1%;
 }
 
 .input_holder{
     position: relative;
+    height: 110%;
 }
 
 .eye{
@@ -51,9 +45,9 @@
     bottom: 0;
     margin-top: auto;
     margin-bottom: auto;
-    right: 20px;
-    width: 20px;
-    height: 20px;
+    right: 5%;
+    width: 5%;
+    height: 100%;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -65,16 +59,16 @@
 
 .password_input{
     width: 100%;
-    height: 65px;
+    height: 100%;
     border-radius: 4px;
     outline: none;
     border: 1px solid rgb(61, 61, 61);
-    padding: 15px;
-    font-size: 15px;
+    padding: 3%;
+    font-size: 100%;
 }
 
 .password_input:focus{
-    border: 2px solid var(--text);
+    border: 1px solid var(--text);
     caret-color: var(--text);
     display: block;
 }
@@ -82,9 +76,9 @@
 .forgot_password{
     color: var(--text);
     font-size: 80%;
-    margin-top: 17px;
+    margin-top: 5%;
     margin-right: auto;
-    margin-left: 2px;
+    margin-left: 0px;
     font-weight: 500;
 }
 
@@ -98,22 +92,22 @@
     right: 0;
     grid-template-rows: max-content max-content;
     position: absolute;
-    bottom: 20px;
-    margin-bottom: 10px;
+    bottom: 3%;
+    margin-bottom: 0;
     margin-top: auto;
 }
 
 .login{
     color: white;
-    line-height: 60px;
+    line-height: 50px;
     text-align: center;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 120%;
     width: 100%;
     background-color: rgb(2, 74, 148);
-    height: 60px;
+    height: 50px;
     border-radius: 40px;
-    margin-bottom: 25px;
+    margin-bottom: 5%;
 }
 
 .data{
@@ -130,14 +124,15 @@
     margin-top: auto;
     margin-bottom: auto;
     height: max-content;
-    margin-left: 10px;
+    margin-left: 0px;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 150%;
+    margin-left: -310%;
 }
 
 .welcome{
     font-weight: 700;
-    font-size: 30px;
+    font-size: 200%;
     margin-top: auto;
     margin-bottom: auto;
     height: max-content;
@@ -160,11 +155,12 @@
     margin-top: auto;
     margin-bottom: auto;
     height: max-content;
+    font-size: 100%;
     opacity: 0.8;
 }
 
 .top_grid{
-    margin-top: 60px;
+    margin-top: 12%;
     display: grid;
     grid-template-columns: max-content max-content;
     grid-template-rows: 100%;
@@ -182,11 +178,11 @@
     margin-left: auto;
     margin-right: auto;
     grid-template-rows: max-content max-content;
-    margin-bottom: 5px;
+    margin-bottom: 5%;
 }
 
 .logo{
-    width: 45px;
+    width: 10%;
 }
 
 .logo_other{
