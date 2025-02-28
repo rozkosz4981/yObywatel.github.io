@@ -12,13 +12,14 @@
     --more: url('https://i.imgur.com/V5SoHXM.png');
     --more-open: url('https://i.imgur.com/e9rnYLl.png');
     --text: #024b97;
+    --shadow: 0px 0px 10px rgb(224, 224, 224);
 }
 
 body{
     background-color: #f5f6fb;
 }
 
-p{
+p, input{
     font-family: "Poppins", sans-serif;
 }
 

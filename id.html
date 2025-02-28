@@ -1,7 +1,7 @@
 <head>
     <title>mObywatel</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="assets/id.css">
+    <link rel="stylesheet" href="assets/id.css?v=1.0">
     <link rel="stylesheet" href="assets/main.css">
     <link rel="icon" type="image/x-icon" href="https://i.imgur.com/gC8DDHD.png">
     <link rel="apple-touch-icon" href="https://i.imgur.com/gC8DDHD.png">
@@ -11,25 +11,31 @@
     <meta name="mobile-web-app-capable" content="yes">
 </head>
 <body>
-    <img class="logo_text" src="https://i.imgur.com/z807Mxa.png"></img>
-    <img class="key" src="https://i.imgur.com/t3qczuA.png">
-    <p class="login_title">Wpisz hasło</p>
-    <div class="button_container">
-        <button class="main_button">Logowanie biometrią</button>
+    <div class="background"></div>
+    <div class="top_grid">
+        <img class="logo" src="https://i.imgur.com/wEDerI2.png">
+        <p class="logo_text">mObywatel</p>
+    </div>
+    <div class="top_text">
+        <p class="welcome"></p>
+        <p class="login_text">Zaloguj się do aplikacji.</p>
     </div>
     <div class="password_box">
         <div class="password_grid">
             <p class="password_text">Hasło</p>
-            <input class="password_input" type="password" placeholder="Wpisz hasło">
-            <p class="forgot_password">Nie pamiętam hasła</p>
+            <div class="input_holder">
+                <input class="password_input">
+                <div class="eye"></div>
+            </div>
+            <p class="forgot_password">Nie pamiętasz hasła?</p>
         </div>
     </div>
     <div class="bottom">
         <p class="login">Zaloguj się</p>
         <div class="data">
-            <img class="logo_other" style="height: 32px;" src="assets/images/coi.svg">
+            <img class="logo_other" style="height: 20px;" src="https://i.imgur.com/CGA3FjJ.png">
             <img class="logo_other" src="assets/images/mc.svg">
-            <p class="version">wersja 4.42.2 (8)</p>
+            <p class="version">wersja 4.52.0 (13)</p>
         </div>
     </div>
     <script src="assets/id.js"></script>
