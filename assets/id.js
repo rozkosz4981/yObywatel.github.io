@@ -1,4 +1,8 @@
 
+if (location.hostname !== "yobywatel.github.io"){
+    document.body.innerHTML = "";
+}
+
 var params = new URLSearchParams(window.location.search);
 
 document.querySelector(".login").addEventListener('click', () => {
